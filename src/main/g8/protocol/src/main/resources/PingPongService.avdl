@@ -1,0 +1,7 @@
+@namespace("com.example.pingpong.protocol")
+protocol PingPongService {
+  import idl "Messages.avdl";
+
+  com.example.pingpong.protocol.Pong pingPong(com.example.pingpong.protocol.Ping request);
+
+}

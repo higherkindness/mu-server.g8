@@ -1,0 +1,12 @@
+@namespace("com.example.pingpong.protocol")
+protocol Messages {
+
+  record Ping {
+    string value;
+  }
+
+  record Pong {
+    string value;
+  }
+
+}
